@@ -46,6 +46,14 @@ body {
     text-decoration: none;
   }
 
+  a.active {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
   .login-btn {
     background-color: white;
     color: #090a09;

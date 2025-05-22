@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhilHealth - Your Partner in Health</title>
+  <link rel="stylesheet" href="/css/faqs.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><img src="/imgs/logo.png" alt="" height="50px"></div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/services.html" >Services</a></li>
+          <li><a href="/html/membership.html">Membership</a></li>
+          <li><a href="/html/faqs.html" class="active">FAQs</a></li>
+          <li><a href="/html/contacs.html">Contact Us</a></li>
+        </ul>
+        <div class="nav-right">
+          <input type="text" placeholder="Search..." class="search-bar">
+          <a href="https://memberinquiry.philhealth.gov.ph/member/" class="login-btn">Login/Register</a>
+        </div>
+      </nav>
+
+      <main>
+        <section class="faqs-section">
+          <h1>Frequently Asked Questions</h1>
+    
+          <div class="faq">
+            <button class="question">How do I become a PhilHealth member?</button>
+            <div class="answer">
+              <p>You can register by submitting a filled-out PhilHealth Member Registration Form (PMRF) to any PhilHealth office along with valid IDs and other supporting documents.</p>
+            </div>
+          </div>
+    
+          <div class="faq">
+            <button class="question">How do I update my membership information?</button>
+            <div class="answer">
+              <p>You can update your information by visiting any PhilHealth office and submitting a PMRF indicating the changes you want to make, along with a valid ID.</p>
+            </div>
+          </div>
+    
+          <div class="faq">
+            <button class="question">How much is the monthly contribution?</button>
+            <div class="answer">
+              <p>Contribution rates depend on the member type and income. For employed members, the employer shares 50% of the contribution. Self-paying members follow a fixed contribution rate or income-based schedule.</p>
+            </div>
+          </div>
+    
+          <div class="faq">
+            <button class="question">How do I avail of PhilHealth benefits?</button>
+            <div class="answer">
+              <p>Present your PhilHealth ID or Member Data Record (MDR) and supporting documents at an accredited healthcare facility. The benefits will be deducted from your bill upon discharge.</p>
+            </div>
+          </div>
+    
+          <div class="faq">
+            <button class="question">Can senior citizens be PhilHealth members?</button>
+            <div class="answer">
+              <p>Yes. Filipino citizens aged 60 and above who are not currently members are automatically covered under the Expanded Senior Citizens Act.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+
+  <footer>
+    <div>
+      <h4>📞 Contact Us</h4>
+      <a href="">New Hotline: (02) 866-225-88</a>
+      <a href="">Availability: 24/7 including weekends and holiday</a>
+      <a href="">Mobile Hotlines (24/7):</a>
+      <a href="">Smart:     0998-857-2957<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0968-865-1670</a>
+      <a href="">Globe:     0917-127-5987<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0917-110-9812</a>
+    </div>
+    <div>
+      <h4>🔗 Quick Links</h4>
+      <a href="#">FAQs</a>
+      <a href="#">Member Login</a>
+      <a href="#">Online Services</a>
+      <a href="#">Downloads</a>
+    </div>
+    <div>
+      <h4>📚 Resources</h4>
+      <a href="#">Hospital Finder</a>
+      <a href="#">Benefit Packages</a>
+      <a href="#">Membership</a>
+      <a href="#">Registration</a>
+      <a href="#">Contribution Table</a>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    © 2024 PHILIPPINE HEALTH INSURANCE CORPORATION
+  </div>
+
+  <script>
+    // Toggle FAQ visibility
+    document.querySelectorAll('.question').forEach(button => {
+      button.addEventListener('click', () => {
+        button.classList.toggle('active');
+        const answer = button.nextElementSibling;
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>

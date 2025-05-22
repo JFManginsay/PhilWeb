@@ -1,0 +1,140 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #07b506;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  nav .logo {
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  nav ul li a, .login-btn {
+    color: rgb(14, 11, 11);
+    text-decoration: none;
+  }
+
+  a.active {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .login-btn {
+    background-color: white;
+    color: #090a09;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 40px 20px;
+    margin-left: 80px;
+  }
+  
+  .region h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #050805;
+    font-size: 31px;
+  }
+  
+  .office {
+    margin-bottom: 40px;
+  }
+  
+  .office h2 {
+    color: #0a9e05;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  
+  .sub-office {
+    background-color: #fff;
+    padding: 15px 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #0a9e05;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .sub-office h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 25px;
+  }
+  
+  .sub-office p {
+    margin-bottom: 5px;
+  }
+
+  .sub-office:hover {
+    transform: translateY(5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  footer {
+    background-color: #07b506;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  footer div {
+    max-width: 300px;
+  }
+
+  footer h4 {
+    margin-bottom: 10px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #07b506;
+    color: white;
+  }

@@ -1,0 +1,168 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #07b506;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  nav .logo {
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  nav ul li a, .login-btn {
+    color: rgb(14, 11, 11);
+    text-decoration: none;
+  }
+
+  a.active {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .login-btn {
+    background-color: white;
+    color: #090a09;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  .verify-section {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-left: 5px solid #0a9e05;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .verify-section h1 {
+    color: #0a9e05;
+    margin-bottom: 10px;
+  }
+  
+  .verify-section p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+  }
+  
+  .verify-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .verify-form label {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .verify-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .verify-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0a9e05;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .verify-form button:hover {
+    background-color: #087f04;
+  }
+  
+  .verification-result {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-left: 4px solid #0a9e05;
+  }
+  
+  .verification-result h2 {
+    margin-bottom: 10px;
+    color: #0a9e05;
+  }
+  
+  .verification-result p {
+    margin: 5px 0;
+  }
+
+  .verify-section:hover {
+    transform: translateY(5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  footer {
+    background-color: #07b506;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  footer div {
+    max-width: 300px;
+  }
+
+  footer h4 {
+    margin-bottom: 10px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #07b506;
+    color: white;
+  }
